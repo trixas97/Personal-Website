@@ -1,0 +1,50 @@
+body{
+    background-color: #eeeeee;
+    display: inline;
+}
+
+.menu{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 20%;
+    height: 100%;
+    background-color: #1b3442;
+    /* box-shadow: 0 22px 4px -1px rgba(0,0,0,.2),0 14px 5px 0 rgba(0,0,0,.14),0 15px 10px 0 rgba(0,0,0,.12); */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.data{
+    width: 80%;
+    height: 100%;
+    left: 20%;
+    position: absolute;
+    top: 0px;
+}
+
+.menu-header{
+    width: 100%;
+    height: 35%;
+    /* background-color: cyan; */
+}
+
+.menu-body{
+    width: 100%;
+    height: 65%;
+
+    background-color: darkgreen;
+}
+
+.menu-ul{
+    position: absolute;
+    background-color: teal;
+}
+
+.menu-ul li{
+    display: block;
+    color: white;
+    background-color: teal;
+    
+    width: 100%;
+    left:0px;
+}
