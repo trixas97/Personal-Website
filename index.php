@@ -7,14 +7,17 @@
 </head>
 <body>
     <div class="menu">
-        <div class="menu-header"></div>
+        <div class="menu-header">
+            <img class="menu-header-pic" src="mypic.jpg">
+            <h1 class="menu-header-text">Μιχάλης Τριχάκης</h1>
+        </div>
         <div class="menu-body">
-            <ul class="menu-ul">
-                <li>Προσωπικές Πληροφορίες</li>
-                <li>Εργασιακή Εμπειρία</li>
-                <li>Τα έργα μου</li>
-                <li>Χρονοδιάγραμμα</li>
-                <li>Στοιχεία Επικοινωνίας</li>
+            <ul class="menu-ul"><h3>
+                <li class="menu-ul-li-checked"><a href="#">Προσωπικές Πληροφορίες</a></li>
+                <li><a href="#">Εργασιακή Εμπειρία</a></li>
+                <li><a href="#">Τα έργα μου</a></li>
+                <li><a href="#">Χρονοδιάγραμμα</a></li>
+                <li><a href="#">Στοιχεία Επικοινωνίας</a></li></h3>
             </ul>
         </div>
     </div>    
