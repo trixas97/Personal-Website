@@ -23,6 +23,22 @@ body{
     top: 0px;
 }
 
+.data-first{
+    width: 80%;
+    background-color: #fffe;
+    margin-left: 10%;
+    box-shadow: 0 5px 4px -1px rgba(0,0,0,.2),0 2px 5px 0 rgba(0,0,0,.14),0 3px 10px 0 rgba(0,0,0,.12);
+    border-radius: 20px;
+    margin-top: 4%;
+}
+
+.data-first-title{
+    text-align: center;
+    padding-top: 2%;
+    color: #1b3442;
+    padding-bottom: 60%;
+}
+
 .menu-header{
     width: 100%;
     height: 35%;
@@ -31,7 +47,7 @@ body{
 }
 
 .menu-header-pic{
-    width: 12em;
+    width:12em;
     height: 12em;
     border-radius: 50%;
     margin-top: 2em;
@@ -51,18 +67,17 @@ body{
 }
 
 .menu-ul{
-    position: absolute;
+    position: relative;
     /* background-color: teal; */
     margin-top: 5em;
-    left: -10.5%;
+    left: 0px;
     width: 100%;
+    padding: 0px;
 }
 
 .menu-ul li{
     display: block;
     color: white;
-    position: static;
-
     text-align: center;
     padding-bottom: 0.75em;
     padding-top: 0.75em;
@@ -71,8 +86,15 @@ body{
 }
 
 .menu-ul-li-checked{
-
     background-color: #1b3442;
+}
+
+.menu-icons{
+    width: 3em;
+    height: 3em;
+    margin-top: 10em;
+    margin-left: 15%;
+    position: relative;
 }
 
 a{

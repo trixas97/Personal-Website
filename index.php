@@ -19,25 +19,35 @@
                 <li><a href="#">Χρονοδιάγραμμα</a></li>
                 <li><a href="#">Στοιχεία Επικοινωνίας</a></li></h3>
             </ul>
+            <a href="https://www.facebook.com/trixas97" target="_blank"><img class="menu-icons" src="facebook.png"></a>
+            <a href="https://github.com/trixas97" target="_blank"><img class="menu-icons" src="github.png"><a>
+            <a href="mailto:trixasmixas@gmail.com"><img class="menu-icons" src="mail.png"></a>
         </div>
     </div>    
     <div class="data">
-        <h1><p>asdkjakdkasbkbk</p>
-        <p>asdkjakdkasbkbk</p>
-        <p>asdkjakdkasbkbk</p>
-        <p>asdkjakdkasbkbk</p>
-        <p>asdkjakdkasbkbk</p>
-        <p>asdkjakdkasbkbk</p>
-        <p>asdkjakdkasbkbk</p>
-        <p>asdkjakdkasbkbk</p>
-        <p>asdkjakdkasbkbk</p>
-        <p>asdkjakdkasbkbk</p>
-        <p>asdkjakdkasbkbk</p>
-        <p>asdkjakdkasbkbk</p>
-        <p>asdkjakdkasbkbk</p>
-        <p>asdkjakdkasbkbk</p>
 
-        </h1>
+        <div class="data-first">
+            <h1 class="data-first-title">Στοιχεία Επικοινωνίας</h1>
+                    <!-- <h1><p>asdkjakdkasbkbk</p>
+        <p>asdkjakdkasbkbk</p>
+        <p>asdkjakdkasbkbk</p>
+        <p>asdkjakdkasbkbk</p>
+        <p>asdkjakdkasbkbk</p>
+        <p>asdkjakdkasbkbk</p>
+        <p>asdkjakdkasbkbk</p>
+        <p>asdkjakdkasbkbk</p>
+        <p>asdkjakdkasbkbk</p>
+        <p>asdkjakdkasbkbk</p> -->
+        <!-- <p>asdkjakdkasbkbk</p>
+        <p>asdkjakdkasbkbk</p>
+        <p>asdkjakdkasbkbk</p>
+        <p>asdkjakdkasbkbk</p> -->
+
+        <!-- </h1> -->
+
+        </div>
+
+
     </div>
 </body>
 </html>
