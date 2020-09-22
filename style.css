@@ -1,88 +1,76 @@
-body{
-    background-color: #eeeeee;
-    display: inline;
-    font-family: Arial, Helvetica, sans-serif
+body {
+    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
-.menu{
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 20%;
-    height: 100%;
+.container {
+    display: flex;
+}
+
+.menu-mobile {
+    display: none;
+}
+
+.menu {
     background-color: #1b3442;
-    /* box-shadow: 0 22px 4px -1px rgba(0,0,0,.2),0 14px 5px 0 rgba(0,0,0,.14),0 15px 10px 0 rgba(0,0,0,.12); */
+    height: 100%;
+    width: 20%;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    transition: .5s ease-in-out;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.data{
-    width: 80%;
-    height: 100%;
-    left: 20%;
+.close-menu-icon {
+    display: none;
     position: absolute;
-    top: 0px;
+    right: 20px;
+    top: 20px;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 700;
+    cursor: pointer;
 }
 
-.data-first{
-    width: 80%;
-    background-color: #fffe;
-    margin-left: 10%;
-    box-shadow: 0 5px 4px -1px rgba(0,0,0,.2),0 2px 5px 0 rgba(0,0,0,.14),0 3px 10px 0 rgba(0,0,0,.12);
-    border-radius: 20px;
-    margin-top: 4%;
-}
-
-.data-first-title{
-    text-align: center;
-    padding-top: 2%;
-    color: #1b3442;
-
-}
-
-.menu-header{
+.menu-header {
     width: 100%;
-    height: 35%;
     text-align: center;
-    /* background-color: cyan; */
 }
 
-.menu-header-pic{
-    width:12em;
-    height: 12em;
+.menu-header-pic {
+    width: 10em;
+    height: 10em;
     border-radius: 50%;
-    margin-top: 2em;
+    margin: 2em;
 }
 
-.menu-header-text{
+.menu-header-text {
     color: white;
-    margin-top: 0.5em;
+    margin-top: 0;
+    font-size: 1.5em;
 }
 
-.menu-body{
+.menu-body {
     width: 100%;
-    height: 65%;
-    position: absolute;
+    height: 100%;
     background-color: teal;
-    /* background-color: darkgreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.menu-ul{
-    position: relative;
-    /* background-color: teal; */
-    margin-top: 5em;
-    left: 0px;
+.menu-ul {
     width: 100%;
-    padding: 0px;
+    padding: 0;
 }
 
-.menu-ul li{
-    display: block;
+.menu-ul li {
     color: white;
     text-align: center;
-    padding-bottom: 0.75em;
-    padding-top: 0.75em;
-    width: 100%;
-    left: 0%;
+    padding: .75em 0;
+    list-style-type: none;
 }
 
 .menu-ul li:hover {
@@ -92,33 +80,112 @@ body{
     transition: background-color 500ms linear;
 }
 
-.menu-ul-li-checked{
+.menu-ul-li-checked {
     background-color: #1b3442;
 }
 
-.menu-icons{
+.icons-container {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+.menu-icons {
     width: 3em;
     height: 3em;
-    margin-top: 10em;
-    margin-left: 15%;
+    margin: 0 15px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: 1.5em 0;
+}
+
+.data-body {
+    height: 100%;
+    width: 80%;
+    top: 21em;
+    left: 20%;
     position: relative;
 }
 
-a{
-    color: white;
-    text-decoration: unset;
+.data{
+    width: 80%;
+    background-color: #fffe;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 5px 4px -1px rgba(0,0,0,.2),0 2px 5px 0 rgba(0,0,0,.14),0 3px 10px 0 rgba(0,0,0,.12);
+    border-radius: 20px;
+    height: auto;
+    margin-bottom: 2%;
+    margin-top: 4%;
+}
+
+.data-title{
+    text-align: center;
+    padding-top: 4%;
+    color: #1b3442;
+    font-size: 1.8em;
+    margin: 0;
+}
+
+.data-information{
+    margin-left: 4%;
+}
+
+.job-list-item{
+    list-style-image: url("images/right-arrow.png");
+    color: #1b3442;
+    font-size: 1.5em; 
+    margin-top: 4%; 
+}
+
+.android-list-item{
+    list-style-image: url("images/android.png");
+    color: #1b3442;
+    font-size: 1.2em; 
+    margin-top: 4%; 
+}   
+
+.web-list-item{
+    list-style-image: url("images/www.png");
+    color: #1b3442;
+    font-size: 1.2em;  
+    margin-top: 4%; 
+}
+
+.dotnet-list-item{
+    list-style-image: url("images/dotnet.png");
+    color: #1b3442;
+    font-size: 1.2em;  
+    margin-top: 4%; 
+}
+
+.icon-link{
+    margin-left: 2%;
+}
+
+form {
+    margin: 0;
 }
 
 .text-form{
     width: 70%;
-    padding: 12px 20px;
+    padding: 6px 20px;
     margin: 8px 0;
     box-sizing: border-box;
     border: 2px solid #1b3442;
     border-radius: 4px;
     margin-left: 15%;
     margin-bottom: 2%;
+    outline: none;
   }
+
+textarea.text-form {
+    padding: 0 20px;
+}
 
   .text-form:focus{
     box-shadow: 0 5px 4px -1px rgba(0,0,0,.2),0 2px 5px 0 rgba(0,0,0,.14),0 3px 10px 0 rgba(0,0,0,.12);
@@ -132,13 +199,9 @@ a{
       margin-left: 15%;
       color: #1b3442;
       font-weight: bold;
-      font-size: large;
+      font-size: 1em;
       padding-top: 5%;
   }
-
-
-
-
 
 @import url('https://fonts.googleapis.com/css?family=Mukta:700');
 
@@ -155,6 +218,9 @@ a{
 	 font-size: inherit;
 	 font-family: inherit;
 }
+
+
+
  button.learn-more {
 	 width: 12rem;
 	 height: auto;
@@ -210,6 +276,9 @@ a{
 	 text-align: center;
 	 text-transform: uppercase;
 }
+
+
+
  button:hover .circle {
 	 width: 100%;
 }
@@ -230,4 +299,61 @@ a{
          padding-bottom: 5%;
          margin-top: 2%;
 	}
+}
+
+/* MEDIA QUERIES - RESPONSIVE */
+
+@media screen and (min-width: 1500px) {
+    .menu-ul {
+        padding: 30px 0;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .menu-header-pic {
+        width: 7em;
+        height: 7em;
+        
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .menu-mobile {
+        display: block;
+        width: 100%;
+        position: fixed;
+        top: 0px;
+        background-color: #1b3442;
+        z-index: 1;
+    }
+
+    .menu-icon {
+        font-size: 2em;
+        color: white;
+        margin-left: 3px;
+    }
+
+    .hamburger-button {
+        cursor: pointer;
+    }
+
+    .menu {
+        z-index: 2;
+        width: 100%;
+        position: absolute;
+        left:-100%;
+    }
+
+    .close-menu-icon {
+        display: block;
+    }
+
+    .menu-visible {
+        left: 0;
+    }
+
+    .data {
+        margin-top: 1%;
+        width: 100%;
+    }
 }

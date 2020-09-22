@@ -1,74 +1,28 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-    <div class="menu">
-        <div class="menu-header">
-            <img class="menu-header-pic" src="mypic.jpg">
-            <h1 class="menu-header-text">Μιχάλης Τριχάκης</h1>
-        </div>
-        <div class="menu-body">
-            <ul class="menu-ul"><h3>
-                <li class="menu-ul-li-checked"><a href="#">Προσωπικές Πληροφορίες</a></li>
-                <li><a href="#">Εργασιακή Εμπειρία</a></li>
-                <li><a href="#">Τα πρότζεκτ μου</a></li>
-                <li><a href="#">Χρονοδιάγραμμα</a></li>
-                <li><a href="#">Φόρμα Επικοινωνίας</a></li></h3>
-            </ul>
-            <a href="https://www.facebook.com/trixas97" target="_blank"><img class="menu-icons" src="facebook.png"></a>
-            <a href="https://github.com/trixas97" target="_blank"><img class="menu-icons" src="github.png"><a>
-            <a href="mailto:trixasmixas@gmail.com"><img class="menu-icons" src="mail.png"></a>
-        </div>
-    </div>    
+<?php include "start.php";?>
+<script>
+    var menuitem = document.getElementById("item1");
+    menuitem.classList.add("menu-ul-li-checked");
+</script>
+
+<div class="data-body">
     <div class="data">
 
-        <div class="data-first">
-            <h1 class="data-first-title">Φόρμα Επικοινωνίας</h1>
-            <form style="margin-top: 5%;">
-            <label class="label-form">Επίθετο:</label><br>
-            <input class="text-form" type="text">
-            <label class="label-form">Όνομα:</label><br>
-            <input class="text-form" type="text">
-            <label class="label-form">Email:</label><br>
-            <input class="text-form" type="text">
-            <label class="label-form">Μήνυμα:</label><br>
-            <textarea class="text-form" name="" id="" cols="30" rows="10"></textarea>
-            
-
-                    <!-- <h1><p>asdkjakdkasbkbk</p>
-        <p>asdkjakdkasbkbk</p>
-        <p>asdkjakdkasbkbk</p>
-        <p>asdkjakdkasbkbk</p>
-        <p>asdkjakdkasbkbk</p>
-        <p>asdkjakdkasbkbk</p>
-        <p>asdkjakdkasbkbk</p>
-        <p>asdkjakdkasbkbk</p>
-        <p>asdkjakdkasbkbk</p>
-        <p>asdkjakdkasbkbk</p> -->
-        <!-- <p>asdkjakdkasbkbk</p>
-        <p>asdkjakdkasbkbk</p>
-        <p>asdkjakdkasbkbk</p>
-        <p>asdkjakdkasbkbk</p> -->
-
-        <!-- </h1> -->
-
-        <div id="container">
-            <button class="learn-more" name="newwords">
-                <span class="circle" aria-hidden="true">
-                    <span class="icon arrow"></span>
-                </span>
-                <span class="button-text">Υποβολη</span>
-            </button>
-         </div>
-            </form>
-
+        <h1 class="data-title">Προσωπικές Πληροφορίες</h1>
+        <br><br>
+        <div class="data-information">
+            <ul>
+                <li class="job-list-item">Επίθετο: <B>Τριχάκης</B></li>
+                <li class="job-list-item">Όνομα: <B>Μιχάλης</B></li>
+                <li class="job-list-item">Καταγωγή: <B>Χανιά, Κρήτης</B></li>
+                <li class="job-list-item">Τηλέφωνο: <B>6980374344</B></li>
+                <li class="job-list-item">Email: <B>trixasmixas@gmail.com</B></li>
+                <li class="job-list-item">Σχολή ΑΕΙ:<br> <a style="color: teal" href="https://www.iee.ihu.gr" target="_blank"><B>Τμήμα Μηχανικών Πληροφορικής και Ηλεκτρονικών Συστημάτων <br> Διεθνές Πανεπιστήμιο Ελλάδας</B></a></li>
+                <li class="job-list-item">Κατεύθυνση: <B>Μηχανικός Δικτύων</B></li>
+                <li class="job-list-item">Ξένες Γλώσσες: <B>Πτυχίο Αγγλικών C2 (ΕSB)</B></li>
+            </ul>
         </div>
-
-
     </div>
-</body>
-</html>
+</div>
+
+
+<?php include "end.php" ?>
