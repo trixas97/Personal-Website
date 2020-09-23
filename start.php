@@ -28,7 +28,7 @@
                     <li id="item4"><a href="contact.php">Φόρμα Επικοινωνίας</a></li></h3>
                 </ul>
                 <div class="icons-container">
-                    <a href="https://www.linkedin.com/in/μιχάλης-τριχάκης-105b641b7" target="_blank"><img class="menu-icons" src="images/linkedin.png"></a>
+                    <a href="https://www.linkedin.com/in/mtrichakis" target="_blank"><img class="menu-icons" src="images/linkedin.png"></a>
                     <a href="https://github.com/trixas97" target="_blank"><img class="menu-icons" src="images/github.png"><a>
                     <a href="biografiko.pdf" download="Τριχάκης Μιχάλης - ΒΙΟΓΡΑΦΙΚΟ.pdf"><img class="menu-icons" src="images/pdf-menu.png"></a>
                 </div>
