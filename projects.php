@@ -21,7 +21,7 @@
                 <a href="https://drive.google.com/file/d/1FVqwAx0xZX4HA3_BwUVnJCMncbhaWuhx/view" target="_blank"><img class="icon-link" src="images/word.png"></a>
                 <a href="https://github.com/trixas97/E-CretaShop" target="_blank"><img class="icon-link" src="images/github-link.png"></a>
             </li>
-            <li class="android-list-item"><B>PositionMarker - MarkerFinder (Java):<B>
+            <li class="android-list-item"><B>PositionMarker - MarkerFinder (Java):</B>
                 <a href="https://www.youtube.com/watch?v=5oNNb6MUsEg" target="_blank"><img style="margin-left: 2%;" class="icon-link" src="images/youtube.png"></a>
                 <a href="https://drive.google.com/file/d/1UR0nW5EMIyk9cXIgEiWbmJOWUxEB6eTc/view?usp=sharing" target="_blank"><img class="icon-link" src="images/word.png"></a>
                 <img class="icon-link" src="images/github-link.png">
