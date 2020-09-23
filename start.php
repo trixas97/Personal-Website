@@ -30,7 +30,7 @@
                 <div class="icons-container">
                     <a href="https://www.linkedin.com/in/μιχάλης-τριχάκης-105b641b7" target="_blank"><img class="menu-icons" src="images/linkedin.png"></a>
                     <a href="https://github.com/trixas97" target="_blank"><img class="menu-icons" src="images/github.png"><a>
-                    <a href="mailto:trixasmixas@gmail.com"><img class="menu-icons" src="images/mail.png"></a>
+                    <a href="biografiko.pdf" download="Τριχάκης Μιχάλης - ΒΙΟΓΡΑΦΙΚΟ.pdf"><img class="menu-icons" src="images/pdf-menu.png"></a>
                 </div>
             </div>
         </div>
